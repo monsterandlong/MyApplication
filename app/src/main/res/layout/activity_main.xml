@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aa.myapplication.MainActivity">
+    <com.donkingliang.labels.LabelsView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/labels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="25dp"
+        android:padding="5dp"
+        app:labelBackground="@drawable/label_bg"
+        app:labelTextColor="@drawable/label_text_color"
+        app:labelTextPaddingBottom="5dp"
+        app:labelTextPaddingLeft="10dp"
+        app:labelTextPaddingRight="10dp"
+        app:labelTextPaddingTop="5dp"
+        app:labelTextSize="14sp"
+        app:lineMargin="10dp"
+        app:maxSelect="3"
+        app:selectType="MULTI"
+        app:wordMargin="10dp"
+        />
+
+   <EditText
+       android:id="@+id/tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/labels"/>
+
+</RelativeLayout>
